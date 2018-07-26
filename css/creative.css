@@ -39,20 +39,26 @@ h6 {
 }
 
 .bg-primary {
+  padding: 8rem 0;
   background-color: #6D2E46 !important;
 }
 
 .bg-dark {
+  padding: 8rem 0;
   background-color: #DB9D47 !important;
+}
+
+#contact {
+  padding: 8rem 0;
 }
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
 
-section {
+/* section {
   padding: 8rem 0;
-}
+} */
 
 .section-heading {
   margin-top: 0;
@@ -315,11 +321,8 @@ header.masthead p {
 
 /* my ting  */
 
-* {box-sizing:border-box}
-
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
   margin: auto;
 }
@@ -397,6 +400,7 @@ header.masthead p {
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+  animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes fade {
