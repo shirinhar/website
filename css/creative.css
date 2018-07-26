@@ -224,6 +224,10 @@ header.masthead p {
   max-width: 400px;
 }
 
+#services{
+    background-color: #3A3042;
+}
+
 .portfolio-box {
   position: relative;
   display: block;
@@ -318,13 +322,15 @@ header.masthead p {
 }
 
 
-
 /* my ting  */
 
 /* Slideshow container */
 .slideshow-container {
+  max-width: 1000px;
   position: relative;
   margin: auto;
+  padding-top: 20px;
+  /* overflow: hidden; */
 }
 
 /* Hide the images by default */
@@ -375,7 +381,7 @@ header.masthead p {
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
+  top: 25px;
 }
 
 /* The dots/bullets/indicators */
@@ -389,6 +395,7 @@ header.masthead p {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+
 
 .active, .dot:hover {
   background-color: #717171;
