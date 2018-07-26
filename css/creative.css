@@ -392,10 +392,18 @@ header.masthead p {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+
+  /* background-color: red; */
+  padding: 10px;
 }
 
 #img-dots{
-  padding: 7px;
+  padding-top: 10px;
+  position: absolute;
+  z-index: 10;
+  margin-top: 80vh;
+  margin-left: 47%;
+  /* margin: 80vh 10px 1px auto; */
 }
 
 .active, .dot:hover {
