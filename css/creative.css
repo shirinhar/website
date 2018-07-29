@@ -111,7 +111,7 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #DB9D47;
+  color: #908c8c;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
@@ -160,7 +160,7 @@ img::-moz-selection {
     color: #6D2E46;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #6d2e46;
+    color: #908c8c;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -168,7 +168,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #6D2E46;
+    color: #908c8c;
   }
 }
 
