@@ -405,6 +405,7 @@ header.masthead p {
   padding: 10px;
 }
 
+/* FIXME: put the dots in the center always */
 #img-dots{
   padding-top: 10px;
   position: absolute;
@@ -437,4 +438,14 @@ header.masthead p {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* popup */
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 30px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
 }
