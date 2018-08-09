@@ -110,3 +110,26 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+
+// cwazy cupcakes
+function moveImg(start_y, end_y, elem) {
+// get the width and then give each photo a number and get the distance you want
+// var body = document.body,
+//     html = document.documentElement;
+
+// var h = Math.max( body.scrollHeight, body.offsetHeight,
+//                        html.clientHeight, html.scrollHeight, html.offsetHeight );
+
+var h = screen.height;
+var w = screen.width;
+
+  var y = Math.floor(Math.random()*(w-300));
+  var x = Math.floor(Math.random()*(h-300));
+
+  console.log(x, y,elem,h, w);
+
+     document.getElementById(elem).style.top = x + "px";
+     document.getElementById(elem).style.right = y + "px";
+
+}
