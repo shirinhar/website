@@ -57,6 +57,7 @@
   }, 300);
 
   // Magnific popup calls
+  // delete this at some point!!!!!!
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
     // type: 'image',
