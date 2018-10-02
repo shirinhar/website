@@ -413,7 +413,11 @@ header.masthead p {
 }
 
 .div-dots{
-  margin-left: 45%;
+  margin-left: 46%;
+}
+
+.dot {
+  background-color: #E0E0E0;
 }
 
 .active, .dot:hover {
